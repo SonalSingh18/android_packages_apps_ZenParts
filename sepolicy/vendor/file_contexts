@@ -1,3 +1,6 @@
+# Backlight Dimmer
+/sys/module/mdss_fb/parameters/backlight_dimmer                               u:object_r:sysfs_backlight:s0
+
 # Fingerprint
 /dev/focaltech_fp                                                             u:object_r:focaltech_device:s0
 /dev/fpsdev0                                                                  u:object_r:cdfinger_device:s0
