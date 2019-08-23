@@ -18,9 +18,6 @@
     <string name="advanced_settings">ZenParts</string>
     <string name="advanced_settings_summary">Kernel Specific Tweaks</string>
 
-    <string name="camera_title">Camera</string>
-    <string name="camera_hal3_title">Enable Camera2 API</string>
-
     <string name="display_title">Display</string>
 
     <!-- KCal -->
