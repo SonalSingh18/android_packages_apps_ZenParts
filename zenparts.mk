@@ -17,6 +17,10 @@
 PRODUCT_SOONG_NAMESPACES += \
     packages/apps/ZenParts
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
+
 # ZenParts
 PRODUCT_PACKAGES += \
     ZenParts
