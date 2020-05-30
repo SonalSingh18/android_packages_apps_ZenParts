@@ -3,6 +3,9 @@ type nfc_sensors_prop, property_type;
 type vendor_camera_prop, property_type;
 type vendor_fingerprint_prop, property_type;
 
+# CPU/GPU Boosts
+type boosts_prop, property_type;
+
 # Dirac
 type dirac_prop, property_type;
 

@@ -5,6 +5,10 @@ ro.btmac                                      u:object_r:btmac_prop:s0
 persist.vendor.camera.hdring                  u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.pickres.prop_hdr        u:object_r:vendor_camera_prop:s0
 
+# CPU/GPU Boosts
+persist.zenparts.gpu_profile                  u:object_r:boosts_prop:s0
+persist.zenparts.cpu_profile                  u:object_r:boosts_prop:s0
+
 # Dirac
 persist.audio.dirac                           u:object_r:dirac_prop:s0
 

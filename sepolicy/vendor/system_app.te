@@ -4,6 +4,11 @@ allow system_app sysfs_zram:file r_file_perms;
 # Backlight Dimmer
 allow system_app sysfs_backlight:file { open read getattr write };
 
+# CPU/GPU Boosts
+set_prop(system_app, boosts_prop);
+get_prop(system_app, boosts_prop);
+allow system_app boosts_prop:property_service set;
+
 # Earpiece Gain
 allow system_app sysfs_egain:file { open read getattr write };
 
