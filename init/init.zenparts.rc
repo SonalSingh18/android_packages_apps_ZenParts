@@ -48,6 +48,10 @@ on boot
   chown root system /sys/class/timed_output/vibrator/vtg_level
   chmod 0660 /sys/class/timed_output/vibrator/vtg_level
 
+# Touchboost
+  chown system system /sys/module/msm_performance/parameters/touchboost
+  chmod 0660 /sys/module/msm_performance/parameters/touchboost
+
 # GPU/CPU Boost based on ronax's MayhemParts
 
     chown system system /sys/devices/soc/5000000.qcom,kgsl-3d0/devfreq/5000000.qcom,kgsl-3d0/adrenoboost
