@@ -45,6 +45,9 @@
 
 /sys/module/stk3x[0-9]x/parameters/call_status_flag                               u:object_r:sysfs_call_status:s0
 
+# Smart Charging
+/sys/class/power_supply/battery/charging_enabled                    u:object_r:sysfs_scharge:s0
+
 # Thermal
 /(vendor|system/vendor)/bin/hw/android\.hardware\.thermal@2\.0-service\.qti            u:object_r:hal_thermal_default_exec:s0
 

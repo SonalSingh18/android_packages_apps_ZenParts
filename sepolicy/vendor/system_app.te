@@ -33,6 +33,9 @@ allow system_app sysfs_graphics:file rw_file_perms;
 # SELinux
 allow system_app selinuxfs:file { read open };
 
+# Smart Charging
+allow system_app sysfs_scharge:file { getattr open write };
+
 # Spectrum
 get_prop(system_app, spectrum_prop);
 allow system_app spectrum_prop:property_service set;
