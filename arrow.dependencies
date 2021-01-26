@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "android_kernel_asus_X01BD",
+    "target_path": "kernel/asus/sdm660"
+  },
+  {
+    "repository": "android_vendor_asus_sdm660",
+    "target_path": "vendor/asus"
+  },
+  {
+    "repository": "android_device_asus_sdm660-common",
+    "target_path": "device/asus/sdm660-common"
+  }
+]
