@@ -294,6 +294,11 @@ vendor/lib/libmmcamera_isp_sce40.so
 vendor/lib/libmmcamera_isp_snr47.so
 vendor/lib/libmmcamera_isp_sub_module.so
 
+# Dirac
+vendor/etc/diracmobile.config
+vendor/lib/libDiracAPI_SHARED.so
+vendor/lib/soundfx/libdirac.so
+
 # Display Firmware - from UL-ASUS_X01BD-WW-16.2017.2007.094-user
 vendor/firmware/Himax_firmware.bin|74a39087ed70f23f599822dc71c271832cdc4d40
 vendor/firmware/hx_criteria.csv|492a73805e93d3f5f851a949642003f7813b9e03
