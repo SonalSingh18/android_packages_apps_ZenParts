@@ -1,1 +1,4 @@
 allow init adsprpcd_file:file mounton;
+
+# Dirac
+allow vendor_init dirac_prop:property_service set;

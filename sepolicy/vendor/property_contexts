@@ -5,9 +5,18 @@ ro.btmac                                      u:object_r:btmac_prop:s0
 persist.vendor.camera.hdring                  u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.pickres.prop_hdr        u:object_r:vendor_camera_prop:s0
 
+# Dirac
+persist.audio.dirac                           u:object_r:dirac_prop:s0
+
 # Fingerprint
 property.cdfinger.enablesave                  u:object_r:vendor_fingerprint_prop:s0
 persist.vendor.runin.fp                       u:object_r:vendor_fingerprint_prop:s0
 
+# HAL3
+persist.camera.HAL3.enable                    u:object_r:camera_prop:s0
+
 # NFC
 ro.hq.support.nfc                             u:object_r:nfc_sensors_prop:s0
+
+# Spectrum
+persist.spectrum.profile                      u:object_r:spectrum_prop:s0
