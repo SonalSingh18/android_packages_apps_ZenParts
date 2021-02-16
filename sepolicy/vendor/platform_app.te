@@ -1,5 +1,11 @@
 # CPU/GPU Boosts
 allow platform_app sysfs_kgsl:dir { search };
 
+# System Info
+allow platform_app sysfs_battery_supply:dir search;
+allow platform_app sysfs_battery_supply:file { getattr open read }; 
+allow platform_app sysfs_kgsl:dir search;
+allow platform_app sysfs_kgsl:file { getattr open read };
+
 # Torch
 allow platform_app sysfs_leds:dir search;
